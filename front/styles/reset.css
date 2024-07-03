@@ -1,0 +1,39 @@
+/* Reset de elementos HTML */
+
+/* Selector universal para eliminar el margen y el relleno */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluir el borde y el relleno en el tamaño total */
+}
+
+/* Establecer la tipografía predeterminada */
+body, button, input, select, textarea {
+    font-family: Arial, Helvetica, sans-serif; /* Elegir una fuente común */
+}
+
+/* Eliminar la decoración del texto enlaces */
+a {
+    text-decoration: none;
+}
+
+/* Establecer la alineación del texto a izquierda */
+h1, h2, h3, h4, h5, h6, p {
+    text-align: left;
+}
+
+/* Establecer márgenes y relleno a 0 */
+ul, ol {
+    list-style: none; /* Eliminar viñetas y numeración */
+    padding: 0;
+    margin: 0;
+}
+
+/* Eliminar estilos por defecto para los elementos de formulario */
+button, input, select, textarea {
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde por defecto */
+}
+
+/* Ajustes adicionales según necesidad */
+
